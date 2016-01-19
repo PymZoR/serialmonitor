@@ -1,0 +1,22 @@
+{
+  "name": "serialmonitor",
+  "version": "0.1.0",
+  "description": "Interactive CLI to monitor and send data through a serial interface",
+  "bin": "./bin/serialmonitor.js",
+  "keywords": [
+    "serial",
+    "cli",
+    "monitor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "salut"
+  },
+  "author": "Axel Mousset",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "serialport": "^2.0.6",
+    "vorpal": "^1.5.5"
+  }
+}
